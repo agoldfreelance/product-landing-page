@@ -4,7 +4,7 @@
 <head>
   <link href="styles.css" rel="stylesheet">
   <title>Adopt a Cat!</title>
-  <link href="https://fonts.googleapis.com/css?family=Bevan|Nanum+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bevan|Nanum+Gothic|Dancing+Script" rel="stylesheet">
   <!--add fonts-->
 </head>
 <body>
@@ -12,14 +12,30 @@
     <img id="header-img" src="http://clipart-library.com/images/8czrzMKKi.jpg"><br>
     <div id="header-title">You Should Really Adopt a Cat.</div>
     <p id="subcaption">Seriously, You're Missing Out</p>
-    <nav id="nav-bar">Navigation<br>
-      <a class="nav-link" href="#right">Would a Cat Be Right for You?</a><br>
-      <a class="nav-link" href="#locations">Where to Adopt</a><br>
-      <a class="nav-link" href="#care">Caring For Your Kitty</a><br>
-      <a class="nav-link" href="#faq"> Frequently Asked Questions</a><br>
+    <nav id="nav-bar">
+      <p id="nav-title">Navigation</p>
+      <a class="nav-link" href="#right">Would a Cat Be Right for You?</a>&nbsp;|
+      <a class="nav-link" href="#where">Where to Adopt</a>&nbsp;|
+      <a class="nav-link" href="#care">Caring For Your Kitty</a>&nbsp;|
+      <a class="nav-link" href="#faq">Frequently Asked Questions</a>&nbsp;|
+      <a class="nav-link" href="#more">More Info</a>
     </nav>
   </header>
-
+  <iframe id="video" class="video" width="616" height="347"
+    src="https://www.youtube.com/embed/gSUQw8E6M14" frameborder="0" allow="accelerometer;
+    autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+  <h2 id="right">Would a Cat Be Right for You?</h2>
+  <h2 id="where">Where to Adopt</h2>
+  <h2 id="care">Caring for Your New Cat</h2>
+  <h2 id="faq">Frequently Asked Questions</h2>
+  <h2 id="more">More Info</h2>
+  <p id="form-blurb">If you would like more information or have additional questions,
+    submit your email and message below and we'll get back to you as soon as we can.</p>
+  <form id="form">
+    Your Email:&nbsp;<input id="email" type="email" placeholder="lovecats@adoptcats.com" required><br>
+    Your Message:&nbsp;<input id="msg" type="text" placeholder="Type your message here (optional)">
+  </form>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </main>

@@ -1,10 +1,10 @@
 main {
   background: #cb9173;
   padding: 15px;
+  font-family: 'Bevan', serif;
 }
 #header {
   margin: 5%;
-  font-family: 'Bevan', serif;
   font-size: 42px;
   text-align: center;
   line-height: 1.3em;
@@ -20,15 +20,32 @@ main {
   font-size: 30px;
 }
 #nav-bar {
+  font-family: 'Nanum Gothic', sans-serif;
   background: #8e443d;
-  font-size: 30px;
-  line-height: 1em;
+  font-size: 22px;
+  line-height: 1.1em;
   padding: 10px;
 }
+#nav-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  margin: 10px;
+}
 .nav-link {
-  color: #cb9173;
+  color: #e0d68a;
   /*background: #511730; use this color for hover animation*/
-  padding: 5px;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 18px;
+}
+.video {
+  display: block;
+  margin: auto;
+}
+#form-blurb {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#form {
+  color: #e0d68a;
+  background: #511730;
+  font-family: 'Nanum Gothic', sans-serif;
 }
